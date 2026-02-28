@@ -1,0 +1,6 @@
+FILE(GLOB_RECURSE app_sources ${CMAKE_SOURCE_DIR}/main/*.*)
+idf_component_register(SRCS ${app_sources})
+idf_build_set_property(COMPILE_OPTIONS "-Wno-missing-field-initializers" APPEND)
+idf_build_set_property(COMPILE_OPTIONS "-Wno-analyzer-null-argument" APPEND)
+idf_build_set_property(COMPILE_OPTIONS "-Wno-error" APPEND)
+idf_build_set_property(COMPILE_OPTIONS "-Wno-extra" APPEND)

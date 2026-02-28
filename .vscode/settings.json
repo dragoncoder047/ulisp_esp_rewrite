@@ -1,0 +1,21 @@
+{
+    "cSpell.words": [
+        "cadr",
+        "cddr",
+        "consp",
+        "eqsymbol",
+        "eqsymbols",
+        "espidf",
+        "espressif",
+        "fipa",
+        "flto",
+        "plispstr",
+        "ULISP",
+        "Xtensa"
+    ],
+    "idf.currentSetup": "/Users/dc047/.espressif/v5.5.2/esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ]
+}
